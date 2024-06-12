@@ -1,0 +1,14 @@
+.accordion {
+
+	&-button {
+		gap: .5rem;
+
+		&::after {
+			all: initial;
+		}
+
+		.icon {
+			margin-left: auto;
+		}
+	}
+}

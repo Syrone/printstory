@@ -1,0 +1,52 @@
+.footer {
+	padding-top: 3.125rem;
+
+	&-top,
+	&-bottom {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 2.5rem;
+	}
+
+	&-top {
+		gap: 2rem;
+
+		.navbar-brand {
+			flex-shrink: 0;
+		}
+	}
+
+	&-bottom {
+		flex-wrap: wrap-reverse;
+		gap: 1.875rem 1.5rem;
+	}
+
+	.nav-info {
+		gap: 1rem 1.875rem;
+	}
+
+	.nav-contacts {
+		align-items: center;
+		gap: .75rem 1.25rem;
+
+		.nav-item {
+
+			&--phone {
+				display: flex;
+				align-items: center;
+				gap: .75rem 1.25rem;
+			}
+		}
+
+		.nav-link {
+			display: flex;
+			align-items: center;
+			gap: .5rem;
+
+			.icon {
+				--_i-size: 1.5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.site-container {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.modal-backdrop {
+  cursor: pointer;
+}

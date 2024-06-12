@@ -1,0 +1,35 @@
+.btn-primary {
+	color: $white;
+	text-transform: uppercase;
+
+	&:is(:hover, :focus) {
+    color: $white;
+  }
+}
+
+.btn-normal {
+	border: 0;
+	border-radius: $border-radius;
+	padding: 0;
+}
+
+.btn-close {
+
+	.icon {
+		--_i-size: 1.5rem;
+	}
+}
+
+.btn-offcanvas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.icon {
+		--_i-size: 1.5rem;
+	}
+
+	&:is(:hover, :focus) {
+		color: $primary;
+	}
+}

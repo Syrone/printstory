@@ -1,0 +1,8 @@
+<svg id="svg-dropdown-thin" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_4004_24" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="11" height="10">
+<rect x="0.5" width="10" height="10" fill="white"/>
+</mask>
+<g mask="url(#mask0_4004_24)">
+<path d="M1.5 3L4.93431 6.43431C5.24673 6.74673 5.75327 6.74673 6.06569 6.43431L9.5 3" stroke="currentColor"/>
+</g>
+</svg>

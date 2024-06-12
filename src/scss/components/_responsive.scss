@@ -1,0 +1,85 @@
+/** > 1400px **/
+@include media-breakpoint-down(xxl) {
+
+
+
+}
+
+/** > 1200px **/
+@include media-breakpoint-down(xl) { 
+
+	// footer
+	.footer {
+
+		&-top {
+			flex-wrap: wrap;
+			gap: 1.875rem 1.5rem;
+
+			> .navbar-brand {
+				width: 100%;
+			}
+
+			> .nav {
+				flex: 1;
+			}
+		}
+	}
+
+}
+
+/** > 992px **/
+@include media-breakpoint-down(lg) {
+
+}
+
+/** > 768px **/
+@include media-breakpoint-down(md) {
+
+	// footer
+	.footer {
+
+		&-top {
+
+			> .nav {
+				flex-basis: calc(50% - 1.5rem);
+			}
+		}
+	}
+
+}
+
+/** > 576px **/
+@include media-breakpoint-down(sm) {
+
+	// footer
+	.footer {
+
+		&-top {
+			flex-direction: column;
+
+			> .nav {
+				flex: 1;
+			}
+		}
+
+		.nav-contacts {
+			gap: 1.875rem 1.25rem;
+
+			.nav-item {
+
+				&--phone {
+					width: 100%;
+					flex-direction: column;
+					align-items: stretch;
+					gap: 1rem;
+				}
+			}
+		}
+	}
+
+}
+
+/** > 380px **/
+@include media-breakpoint-down(xs) {
+	
+}

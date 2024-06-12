@@ -1,0 +1,13 @@
+.dropdown-toggle {
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+
+	&::after {
+		all: initial;
+	}
+}
+
+.dropdown-menu {
+	box-shadow: $box-shadow;
+}

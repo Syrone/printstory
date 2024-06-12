@@ -1,0 +1,34 @@
+.icon {
+	--_i-size: 1rem;
+	--_i-color: currentColor;
+
+	width: var(--_i-size);
+	height: var(--_i-size);
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	color: var(--_i-color);
+
+	svg {
+		width: 100%;
+		height: 100%;
+
+		display: block;
+		object-fit: contain;
+		object-position: center;
+	}
+}
+
+.icon-phone {
+	--_i-color: var(--bs-pink);
+}
+
+.icon-whatsapp {
+	--_i-color: #2AE752;
+}
+
+.icon-telegram {
+	--_i-color: #26A4E3;
+}
